@@ -1,5 +1,7 @@
+
 body {
-    background-color: #333;
+    background: #333;
+   background-image: url("IMG/background.jpg");
     font-family: Arial, Helvetica, sans-serif; 
 }
 ul {
@@ -16,13 +18,12 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: orange;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
@@ -30,5 +31,7 @@ li a:active {
     background-color: darkorange;
 }
 .welcometext {
-    font-size: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: orange;
 }
